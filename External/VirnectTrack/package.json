@@ -1,0 +1,20 @@
+{
+  "name": "com.virnect.track",
+  "version": "1.9.0",
+  "displayName": "VIRNECT Track",
+  "description": "VIRNECT Track\r\n\r\nTrack is a cross-platform augmented reality framework.\r\nWith this package, you can easily integrate cutting-edge computer vision technologies into your AR projects.\r\n\r\nTrack is able to track multiple different target types:\r\n\u25aa Images\r\n\u25aa QR-Codes\r\n\u25aa 3D Objects\r\n\u25aa CAD Models\r\n\u25aa MAP Targets\r\n\u25aa Shape Targets",
+  "unity": "2019.4",
+  "unityRelease": "2f1",
+  "keywords": [
+    "Virnect",
+    "AR",
+    "Tracking Framework"
+  ],
+  "author": {
+    "name": "Virnect CO., LTD.",
+    "email": "contact@virnect.com",
+    "url": "https://track.virnect.com/"
+  },
+  "type": "library",
+  "hideInEditor": true
+}

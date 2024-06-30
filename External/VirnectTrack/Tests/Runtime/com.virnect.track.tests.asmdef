@@ -1,0 +1,11 @@
+{
+    "name": "com.virnect.track.tests",
+    "references": [
+        "com.virnect.track"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+  "includePlatforms": [],
+  "excludePlatforms": []
+}
