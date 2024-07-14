@@ -1,0 +1,1 @@
+hello~~~ nice to meet you. I'm jumin. i'm trying to present text on text panel by reading txt file. 

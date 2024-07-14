@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24368a37222c39f4e93e310a6011e2fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentView: 
+  PreviousView: 
+  DomainReloadOccured: 1
+  IsOpen: 1
+  AreTestsRunning: 0
+  CurrentTutorial: {fileID: 11400000, guid: 4ea65db2fa8d26049b74e000be026b6d, type: 2}
+  PlayModeChanging: 1
+  ActiveScenesBeforeTutorialStarted:
+  - Active: 1
+    AssetPath: Assets/Scenes/CanvasButton.unity
+    WasLoaded: 1
+  SceneViewStateBeforeTutorialStarted:
+    In2DMode: 0
+    Orthographic: 0
+    Size: 0.054735363
+    Point: {x: 0.12999998, y: 1.6, z: 0.64599997}
+    Direction: {x: -0.1654397, y: -0.20112531, z: 0.03448485, w: -0.96488106}
