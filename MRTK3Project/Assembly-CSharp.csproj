@@ -58,8 +58,8 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\02_Scripts\GameManager.cs" />
     <Compile Include="Assets\02_Scripts\UIManager.cs" />
+    <Compile Include="Assets\02_Scripts\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -420,14 +420,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.Types">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.Gradle">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -918,340 +910,340 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Diagnostics.Visualization">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Diagnostics.Visualization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Input">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Input.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.007">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.007.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.OpenXR.Editor">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.GraphicsTools.Editor">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.GraphicsTools.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.ARFoundation.InternalUtils">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.ARFoundation.InternalUtils.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.SpatialManipulation">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SpatialManipulation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.UXCore.Editor">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.UXCore.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Simulation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Simulation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.CoreUtils.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.ARSubsystems.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.ARSubsystems">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="glTFastFakeSchema">
+      <HintPath>Library\ScriptAssemblies\glTFastFakeSchema.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.ARAnalytics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.ARAnalytics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.UXComponents.NonCanvas">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.UXComponents.NonCanvas.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.ARFoundation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="glTFast">
+      <HintPath>Library\ScriptAssemblies\glTFast.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Simulation">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Simulation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Tutorials.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Tutorials.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Input.Editor">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Input.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="glTFast.dots">
+      <HintPath>Library\ScriptAssemblies\glTFast.dots.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.007">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.007.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="glTFastEditor">
+      <HintPath>Library\ScriptAssemblies\glTFastEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Interaction.Toolkit">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ktx">
+      <HintPath>Library\ScriptAssemblies\Ktx.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.UXComponents.Editor">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.UXComponents.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.OpenXR">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Diagnostics">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Diagnostics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Tutorials.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Tutorials.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.UXCore">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.UXCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Tutorials.Authoring.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Tutorials.Authoring.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.CoreUtils">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Core">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="glTFastSchema">
+      <HintPath>Library\ScriptAssemblies\glTFastSchema.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.SpatialManipulation.Editor">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SpatialManipulation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.UXComponents">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.UXComponents.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.ARFoundation">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.GraphicsTools">
+      <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.GraphicsTools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.csproj">
-      <Project>{480ECA26-9C56-F35E-F0DB-8E2CC77FD10B}</Project>
-      <Name>Unity.XR.OpenXR.Features.RuntimeDebugger.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Diagnostics.Visualization.csproj">
-      <Project>{8805797D-6194-4697-3E25-5E1F7E211340}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Diagnostics.Visualization</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Input.csproj">
-      <Project>{67E46412-A168-3729-5E46-8F4992BDEAE1}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Input</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{0D3422F0-D92C-9C7E-3550-304EA412EFC2}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{D8A311B1-F3BD-7DEE-1E7F-6F0F64EAB7D6}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
-      <Project>{0EBEF485-1E57-1EF0-EBA4-190DDDCE5B51}</Project>
-      <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEngineBridge.007.csproj">
-      <Project>{7B051E0B-B04F-537E-3457-9A6BFCE21E18}</Project>
-      <Name>Unity.InternalAPIEngineBridge.007</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
-      <Project>{A1F09849-9914-4D2A-7921-C8EA57888142}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.OpenXR.Editor.csproj">
-      <Project>{2029031F-7523-E9A7-9BDD-AD2AC9F258B1}</Project>
-      <Name>Microsoft.MixedReality.OpenXR.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{0E073B8D-4D78-0698-0420-B97C2CB60FFC}</Project>
-      <Name>Unity.VisualScripting.State.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.GraphicsTools.Editor.csproj">
-      <Project>{9F59A065-0C6B-4A0B-825D-173548F1836C}</Project>
-      <Name>Microsoft.MixedReality.GraphicsTools.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARFoundation.InternalUtils.csproj">
-      <Project>{0A8F635E-9F28-374A-B1DA-28ECB514AB80}</Project>
-      <Name>Unity.XR.ARFoundation.InternalUtils</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
-      <Project>{5636C1A9-9692-3A21-8F1A-E3F402A90B77}</Project>
-      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{C9F9D912-4DCD-BAFD-CE4B-8F5DAD7E5477}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{EF26670F-5830-0171-C1C2-49A918096DA8}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{9A9CF285-818E-4E38-74E0-534CACB5AB75}</Project>
-      <Name>Unity.InputSystem</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{1BB69D1B-3B11-BB9B-8BA4-52E2AD98A707}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SpatialManipulation.csproj">
-      <Project>{4270A484-EA9F-C999-E881-967C038B3340}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.SpatialManipulation</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.UXCore.Editor.csproj">
-      <Project>{5571C8E3-EBF8-BC98-0258-CD14E0A2402B}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.UXCore.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{9B330B5D-FE9B-B495-9B37-8D1F7C0F88B2}</Project>
-      <Name>UnityEngine.SpatialTracking</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{8F01D375-71B2-3776-7515-40B74B5AA544}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.csproj">
-      <Project>{37E83EDB-097F-0896-9377-97048D55C488}</Project>
-      <Name>Unity.XR.OpenXR.Features.MetaQuestSupport</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
-      <Project>{B1F82C53-251B-0241-A078-59F764B0B6EA}</Project>
-      <Name>Unity.EditorCoroutines.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Simulation.Editor.csproj">
-      <Project>{BBEBFF8B-176A-9FEF-F3A6-1C6263007B89}</Project>
-      <Name>Unity.XR.Simulation.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
-      <Project>{31CD3E63-0014-9941-6F39-5537D91693FE}</Project>
-      <Name>Unity.XR.CoreUtils.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARSubsystems.Editor.csproj">
-      <Project>{CD3A99CF-43FA-35DD-F780-9534406E2025}</Project>
-      <Name>Unity.XR.ARSubsystems.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.csproj">
-      <Project>{03DE9F9F-9A58-9EC7-D0F3-2B8D59F4F851}</Project>
-      <Name>Unity.XR.OpenXR.Features.MetaQuestSupport.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{2BB5654C-A7BD-89F4-3B96-DFA96CE80C1A}</Project>
-      <Name>Unity.XR.Management</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{669A6ACC-A997-94CA-A046-7CAC82A4A67D}</Project>
-      <Name>Unity.Mathematics.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{502BAE5E-34F1-D378-24A1-FB6BCDDAFADE}</Project>
-      <Name>Unity.XR.ARSubsystems</Name>
-    </ProjectReference>
-    <ProjectReference Include="glTFastFakeSchema.csproj">
-      <Project>{5A506D21-F867-0F43-B1E4-907D14284901}</Project>
-      <Name>glTFastFakeSchema</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARAnalytics.Editor.csproj">
-      <Project>{0A74C4AC-594D-47BC-9681-D59FD4A4A78F}</Project>
-      <Name>Unity.XR.ARAnalytics.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.UXComponents.NonCanvas.csproj">
-      <Project>{D0970528-2EEE-5D38-1EAB-343F929F66FB}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.UXComponents.NonCanvas</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARFoundation.Editor.csproj">
-      <Project>{A7EBAC4F-9834-0265-FCB0-AAFE99B4BC80}</Project>
-      <Name>Unity.XR.ARFoundation.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="glTFast.csproj">
-      <Project>{8F3094A9-DAFA-0D9A-411A-EF4AD69D5ADE}</Project>
-      <Name>glTFast</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Simulation.csproj">
-      <Project>{3FE46235-0B46-05B8-891B-4B4EFFCDBA87}</Project>
-      <Name>Unity.XR.Simulation</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Tutorials.Core.csproj">
-      <Project>{8BA41AB8-1FA5-8DA5-FD2D-FE9E4153223F}</Project>
-      <Name>Unity.Tutorials.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Editor.csproj">
-      <Project>{40E314CC-AA3F-6E55-A529-F1499EB036AC}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{8F0AD467-D9A3-F363-1AE9-3FEC2C561859}</Project>
-      <Name>Unity.VisualScripting.Flow.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Input.Editor.csproj">
-      <Project>{40DC86B3-2729-1196-9A08-58F0C7D9F914}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Input.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="glTFast.dots.csproj">
-      <Project>{3F1C113B-331C-987E-D47B-D58760ABB066}</Project>
-      <Name>glTFast.dots</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEditorBridge.007.csproj">
-      <Project>{C96F9DCD-E496-B46B-F30F-FB755E5B9DF8}</Project>
-      <Name>Unity.InternalAPIEditorBridge.007</Name>
-    </ProjectReference>
-    <ProjectReference Include="glTFastEditor.csproj">
-      <Project>{6A74E518-5DD5-BEA5-DD8F-8DDDFCBFDA7F}</Project>
-      <Name>glTFastEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{7E08FB77-A109-9D56-9099-F82B880221AB}</Project>
-      <Name>Unity.VisualStudio.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.csproj">
-      <Project>{4E069077-AC4F-55B8-EDE1-9FA40A7E1640}</Project>
-      <Name>Unity.XR.OpenXR.Features.OculusQuestSupport.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{6CA761A9-10ED-6F6C-1883-19CA03381D82}</Project>
-      <Name>Unity.XR.Management.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{BFF10C17-328C-472E-A8A5-92EE0F823689}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{2AFA49C1-7388-6BBB-5383-6503D8D996A1}</Project>
-      <Name>Unity.VisualScripting.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{C62FDF11-2524-FC49-31EC-1B6647A3777B}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.Editor.csproj">
-      <Project>{529C5B1C-5070-2F18-CA92-7672C20201B5}</Project>
-      <Name>Unity.Burst.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
-      <Project>{018D539A-FA02-BC22-E698-4D5A25C700C7}</Project>
-      <Name>Unity.XR.Interaction.Toolkit</Name>
-    </ProjectReference>
-    <ProjectReference Include="Ktx.csproj">
-      <Project>{D61F8CFE-4868-E4B3-0F84-1E8E77D0C134}</Project>
-      <Name>Ktx</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{7A745F1F-A13E-3249-AF6D-0E4BE4DFC4FF}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{65A390A1-D8BB-C118-1DE8-264235A1CE53}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.UXComponents.Editor.csproj">
-      <Project>{AA21788F-E1FF-B28A-91D8-302587BDBB25}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.UXComponents.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.csproj">
-      <Project>{6D7AAC25-D62F-16ED-92BE-52F2E6A0E73D}</Project>
-      <Name>Unity.XR.OpenXR.Features.OculusQuestSupport</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.OpenXR.csproj">
-      <Project>{BC7C567D-48AD-17BE-E9ED-B011DB68D8C1}</Project>
-      <Name>Microsoft.MixedReality.OpenXR</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Diagnostics.csproj">
-      <Project>{896FD625-5208-ECEF-E9CE-489897C11C7C}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Diagnostics</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Tutorials.Core.Editor.csproj">
-      <Project>{FE39C6AB-E585-CCA3-C0B0-B88F5FB96A05}</Project>
-      <Name>Unity.Tutorials.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{C32E558E-2A8F-B521-9E94-777C9CB15718}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{F71D7638-9015-9159-B58C-4E06C19903EC}</Project>
-      <Name>Unity.Mathematics</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{B3D7B07B-756D-9C77-21CA-BF7EE19D7790}</Project>
-      <Name>Unity.Burst</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.UXCore.csproj">
-      <Project>{59A15C97-2DA2-8F64-3602-2DF057F439C5}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.UXCore</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{F4BF4AC5-BC4E-CFFE-01DF-6E8B7BE481C0}</Project>
-      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{7168327B-2EAC-2D8A-7C11-7066D8A67838}</Project>
-      <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Tutorials.Authoring.Editor.csproj">
-      <Project>{5961BBCA-3265-E23C-1106-7C0189BFA112}</Project>
-      <Name>Unity.Tutorials.Authoring.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
-      <Project>{8CCA94E9-E9A1-CA21-ADA4-FC8C623FA191}</Project>
-      <Name>Unity.XR.OpenXR.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
-      <Project>{002BD312-7464-3579-CFC1-0A5C19BD2EE7}</Project>
-      <Name>Unity.InputSystem.ForUI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{C79079F6-0AC6-8F3C-0B8A-F1AE7234E8D2}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{F01428E3-F4FE-E772-A953-6C7E22B289A5}</Project>
-      <Name>Unity.XR.CoreUtils</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
-      <Project>{985D65CD-225E-E5E0-BA6B-732ADD8ECD6F}</Project>
-      <Name>UnityEditor.XR.LegacyInputHelpers</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.csproj">
-      <Project>{7314F2A9-7972-61C0-962D-0A867650D92A}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{A3CE2206-2ED0-A4A6-D6FB-A3AADA2C339B}</Project>
-      <Name>Unity.XR.OpenXR</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Editor.csproj">
-      <Project>{C51C31BD-1184-C5B8-3B66-81904579DEC9}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="glTFastSchema.csproj">
-      <Project>{C18A9B8E-FEBA-54E7-D124-3E6FDEBA6834}</Project>
-      <Name>glTFastSchema</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
-      <Project>{B46CA763-4047-3C2F-A344-4B969D922091}</Project>
-      <Name>UnityEditor.SpatialTracking</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
-      <Project>{9DA6946D-D6E0-552A-675E-CC67A36813B8}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.ConformanceAutomation.csproj">
-      <Project>{6C08D2C8-ADF9-204D-34E2-CD626213E5CA}</Project>
-      <Name>Unity.XR.OpenXR.Features.ConformanceAutomation</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SpatialManipulation.Editor.csproj">
-      <Project>{4F5B09CC-AD2C-EF15-128F-B37BE5E73DAB}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.SpatialManipulation.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.UXComponents.csproj">
-      <Project>{4697B918-46A7-B5E1-F58E-133E497EB008}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.UXComponents</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{93469611-C704-2314-1905-17183FFEE2A6}</Project>
-      <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{984DA9DA-506D-83FF-0B74-D5CA9513B023}</Project>
-      <Name>Unity.XR.ARFoundation</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.GraphicsTools.csproj">
-      <Project>{406796ED-1183-5B3B-7D48-9BC617E1F7FA}</Project>
-      <Name>Microsoft.MixedReality.GraphicsTools</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24368a37222c39f4e93e310a6011e2fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentView: 
+  CurrentView: TableOfContent
   PreviousView: 
   DomainReloadOccured: 1
   IsOpen: 1
