@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentView: TableOfContent
-  PreviousView: 
+  PreviousView: TableOfContent
   DomainReloadOccured: 1
   IsOpen: 1
   AreTestsRunning: 0
-  CurrentTutorial: {fileID: 11400000, guid: 4ea65db2fa8d26049b74e000be026b6d, type: 2}
+  CurrentTutorial: {fileID: 0}
   PlayModeChanging: 1
   ActiveScenesBeforeTutorialStarted:
   - Active: 1

@@ -405,6 +405,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/02_Scripts/GameManager.cs"
 "Assets/02_Scripts/UIManager.cs"
+"Assets/File_Manager/Test_Behaviour.cs"
+"Assets/File_Manager/Text_Manager.cs"
+"Assets/File_Manager/Video_Manager.cs"
 -langversion:9.0
 
 /deterministic
