@@ -1,0 +1,25 @@
+{
+    "name": "com.virnect.track.editor",
+    "rootNamespace": "",
+    "references": [
+        "com.virnect.track",
+        "Unity.XR.ARFoundation"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "",
+            "define": "ARFOUNDATION_PRESENT"
+        }
+    ],
+    "noEngineReferences": false
+}

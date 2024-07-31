@@ -1,0 +1,30 @@
+{
+    "Intrinsic": {
+        "cam0": {
+            "640x360":{
+                "Resolution": [ 640, 360 ],
+                "FocalLength": [ 500.0, 500.0 ],
+                "PrincipalPoint": [ 320.0, 180.0 ],
+                "Distortion": [ 0.0, 0.0, 0.0, 0.0, 0.0 ]
+            },
+            "640x480":{
+                "Resolution": [ 640, 480 ],
+                "FocalLength": [ 500.0, 500.0 ],
+                "PrincipalPoint": [ 320.0, 240.0 ],
+                "Distortion": [ 0.0, 0.0, 0.0, 0.0, 0.0 ]
+            },
+            "1280x720":{
+                "Resolution": [ 1280, 720 ],
+                "FocalLength": [ 500.0, 500.0 ],
+                "PrincipalPoint": [ 640.0, 360.0 ],
+                "Distortion": [ 0.0, 0.0, 0.0, 0.0, 0.0 ]
+            },
+            "1280x960":{
+                "Resolution": [ 1280, 960 ],
+                "FocalLength": [ 500.0, 500.0 ],
+                "PrincipalPoint": [ 640.0, 480.0 ],
+                "Distortion": [ 0.0, 0.0, 0.0, 0.0, 0.0 ]
+            }
+        }
+    }
+}
