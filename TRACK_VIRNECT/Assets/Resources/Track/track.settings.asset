@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e11535b40b308b47b4850be03c426a8, type: 3}
   m_Name: track.settings
   m_EditorClassIdentifier: 
-  LicenseKey: 
+  LicenseKey: 3PET-YBDN-5ZK8-72GQ
   PerformPreBuildSceneCheck: 1
