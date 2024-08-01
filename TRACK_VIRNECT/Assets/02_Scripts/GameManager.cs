@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -22,6 +22,12 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
     #endregion
+
+    public TextMeshProUGUI debugText;
+    
+    public GameObject clepsydraPrefab;
+    private Vector3 targetTransform;
+    public TextMeshProUGUI infoText;
 
     public void LoadMainSceneCall()
     {
@@ -45,6 +51,33 @@ public class GameManager : MonoBehaviour
 
         // 바뀐 씬을 현재 씬으로 변경하고 초기화해줌
 
+    }
+
+    // book target 찾았을 때 콜백 
+    public void Callback_StartBookTarget()
+    {
+
+        //targetTransform = GameObject.FindWithTag("TrackTarget").transform.position;
+        targetTransform = GameObject.Find("Placeholder").transform.position;
+
+        debugText.text = "Book Detected";
+        debugText.color = Color.green;
+
+        // target 위치에 모델 생성 
+        Instantiate(clepsydraPrefab, targetTransform, Quaternion.identity);
+
+        // 안내 UI 생성
+        infoText.enabled = true;
+
+        // 안내 음성 재생 
+
+
+    }
+
+    public void Callback_StopBookTarget()
+    {
+        debugText.text = "Searching...";
+        debugText.color = Color.yellow;
     }
 
     // 겜 종료
