@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/01_Scenes/MainMenu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/01_Scenes/FusionTracker.unity
+    path: Assets/01_Scenes/FusionTracker0.unity
     guid: 9542c42e6aedfa64bbb264448e2c5985
   - enabled: 1
     path: Assets/01_Scenes/Standalone.unity
     guid: 582a96f57f21b0b44bce22dd4c499fee
+  - enabled: 1
+    path: Assets/01_Scenes/FusionTracker.unity
+    guid: 4d43ccdc3d748d3419f2f587a7f6aa65
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e42130505fbe06846a4b61dce148cd57, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: a6db35686e21b0b4db714d0b26054342, type: 2}
