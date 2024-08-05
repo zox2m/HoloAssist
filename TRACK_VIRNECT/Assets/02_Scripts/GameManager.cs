@@ -26,8 +26,10 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI debugText;
     
     public GameObject clepsydraPrefab;
-    private Vector3 targetTransform;
+    private GameObject trackedTarget;
     public TextMeshProUGUI infoText;
+    public GameObject[] trackTargets; // 타겟들 옵젝 모아두는 배열. 일단은 인스펙터에서 연결 . 0퓨쳐셀프 1씨름 2 
+
 
     public void LoadMainSceneCall()
     {
@@ -54,20 +56,25 @@ public class GameManager : MonoBehaviour
     }
 
     // book target 찾았을 때 콜백 
-    public void Callback_StartBookTarget()
+    public void Callback_StartTarget(int targetIndex)
     {
 
         //targetTransform = GameObject.FindWithTag("TrackTarget").transform.position;
-        targetTransform = GameObject.Find("Placeholder").transform.position;
+        trackedTarget = trackTargets[targetIndex];
 
-        debugText.text = "Book Detected";
+        infoText = trackedTarget.transform.GetChild(1).GetComponent<TextMeshProUGUI>(); // 해당 타겟의 text 
+
+
+        debugText.text = targetIndex + ": Detected";
         debugText.color = Color.green;
 
         // target 위치에 모델 생성 
-        Instantiate(clepsydraPrefab, targetTransform, Quaternion.identity);
+        //Instantiate(clepsydraPrefab, targetTransform, Quaternion.identity); // 약간 오프셋을 줌
 
-        // 안내 UI 생성
-        infoText.enabled = true;
+        // 안내 UI 표시
+        //infoText.enabled = true;
+        infoText.transform.position = trackedTarget.transform.GetChild(0).position; // 타겟의 위치로 이동 
+        infoText.transform.rotation = trackedTarget.transform.GetChild(0).rotation;
 
         // 안내 음성 재생 
 
