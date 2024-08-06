@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465785, g: 0.49641252, b: 0.574817, a: 1}
+  m_IndirectSpecularColor: {r: 0.4440219, g: 0.49316508, b: 0.5722314, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -293,6 +293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f5e122b1963e304e819c89f7bddb141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UI_Manager: {fileID: 0}
   debugText: {fileID: 1808212991}
   clepsydraPrefab: {fileID: 6935402220762578692, guid: ef758fa49b1957a4ba9eb1a112bf6f32, type: 3}
   infoText: {fileID: 0}
@@ -328,6 +329,7 @@ GameObject:
   - component: {fileID: 423561696}
   - component: {fileID: 423561695}
   - component: {fileID: 423561694}
+  - component: {fileID: 423561698}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -419,6 +421,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &423561698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423561693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86eafd4a7498db940b98139d17348112, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _APopup: {fileID: 0}
+  _BPopup: {fileID: 0}
+  _escKey: 27
+  _AKey: 97
+  _BKey: 98
 --- !u!1 &464936490
 GameObject:
   m_ObjectHideFlags: 0

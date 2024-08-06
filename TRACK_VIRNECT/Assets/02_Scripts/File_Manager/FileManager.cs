@@ -33,11 +33,11 @@ public class FileManger : MonoBehaviour
     
     public void OnDetected(string object_string)
     {
-        // tm : ±ÛÀÚ °¡Á®¿Í¼­ Ç¥½Ã 
+        // tm : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ Ç¥ï¿½ï¿½ 
         //Debug.Log(tm.get_Text(object_string));
         textPanel.GetComponent<TextMeshProUGUI>().text = tm.get_Text(object_string);
 
-        // vm : ¿µ»ó °¡Á®¿Í¼­ Ç¥½Ã 
+        // vm : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ Ç¥ï¿½ï¿½ 
         videoPanel.GetComponent<VideoPlayer>().clip = vm.get_Video(object_string);
         videoPanel.GetComponent<VideoPlayer>().Prepare();
         videoPanel.GetComponent<VideoPlayer>().Play();

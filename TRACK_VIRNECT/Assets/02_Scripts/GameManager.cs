@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 {
     #region SingleTon Pattern
     public static GameManager Instance { get; private set; }
+    public GameObject UI_Manager;
+
     private void Awake()
     {
         // If an instance already exists and it's not this one, destroy this one
@@ -28,36 +30,36 @@ public class GameManager : MonoBehaviour
     public GameObject clepsydraPrefab;
     private GameObject trackedTarget;
     public TextMeshProUGUI infoText;
-    public GameObject[] trackTargets; // Å¸°Ùµé ¿ÉÁ§ ¸ð¾ÆµÎ´Â ¹è¿­. ÀÏ´ÜÀº ÀÎ½ºÆåÅÍ¿¡¼­ ¿¬°á . 0Ç»ÃÄ¼¿ÇÁ 1¾¾¸§ 2 
+    public GameObject[] trackTargets; // Å¸ï¿½Ùµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ÆµÎ´ï¿½ ï¿½è¿­. ï¿½Ï´ï¿½ï¿½ï¿½ ï¿½Î½ï¿½ï¿½ï¿½ï¿½Í¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ . 0Ç»ï¿½Ä¼ï¿½ï¿½ï¿½ 1ï¿½ï¿½ï¿½ï¿½ 2 
 
-    public FileManger fm; // ÀÎ½ºÆåÅÍ¿¡¼­ ÇÒ´ç 
+    public FileManger fm; // ï¿½Î½ï¿½ï¿½ï¿½ï¿½Í¿ï¿½ï¿½ï¿½ ï¿½Ò´ï¿½ 
 
     private string targetName;
 
-    // book target Ã£¾ÒÀ» ¶§ ÄÝ¹é 
+    // book target Ã£ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ý¹ï¿½ 
     public void Callback_StartTarget(int targetIndex)
     {
 
         //targetTransform = GameObject.FindWithTag("TrackTarget").transform.position;
         trackedTarget = trackTargets[targetIndex];
 
-        infoText = trackedTarget.transform.GetChild(1).GetComponent<TextMeshProUGUI>(); // ÇØ´ç Å¸°ÙÀÇ text 
+        infoText = trackedTarget.transform.GetChild(1).GetComponent<TextMeshProUGUI>(); // ï¿½Ø´ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ text 
 
 
         debugText.text = targetIndex + ": Detected";
         debugText.color = Color.green;
 
-        // target À§Ä¡¿¡ ¸ðµ¨ »ý¼º 
-        //Instantiate(clepsydraPrefab, targetTransform, Quaternion.identity); // ¾à°£ ¿ÀÇÁ¼ÂÀ» ÁÜ
+        // target ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 
+        //Instantiate(clepsydraPrefab, targetTransform, Quaternion.identity); // ï¿½à°£ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 
-        // ¾È³» UI Ç¥½Ã
+        // ï¿½È³ï¿½ UI Ç¥ï¿½ï¿½
         //infoText.enabled = true;
-        infoText.transform.position = trackedTarget.transform.GetChild(0).position; // Å¸°ÙÀÇ À§Ä¡·Î ÀÌµ¿ 
+        infoText.transform.position = trackedTarget.transform.GetChild(0).position; // Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½Ìµï¿½ 
         infoText.transform.rotation = trackedTarget.transform.GetChild(0).rotation;
 
-        // ¾È³» À½¼º Àç»ý 
+        // ï¿½È³ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ 
 
-        // ÇØ´ç À§Ä¡¿¡ ±ÍÄ® Àç»ý.. ÀÏ´Ü µ¥¸ðÇØ¾ßÇÏ´Ï±î Á¸³ª ÇÏµåÄÚµùÇÒ°Ô¿ä ¤¸¤µ¤¸¤µ
+        // ï¿½Ø´ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½Ä® ï¿½ï¿½ï¿½.. ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ø¾ï¿½ï¿½Ï´Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ïµï¿½ï¿½Úµï¿½ï¿½Ò°Ô¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         switch (targetIndex)
         {
             case 1:
@@ -75,10 +77,10 @@ public class GameManager : MonoBehaviour
 
                 break;
             default:
-                Debug.Log(" ÇØ´çÇÏ´Â Å¸°ÙÀ» Ã£Áö ¸øÇÔ");
+                Debug.Log(" ï¿½Ø´ï¿½ï¿½Ï´ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ Ã£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
                 break;
         }
-
+        //UI_Manager.GetComponent<PopupUIManager>().ToggleKeyDownAction(targetIndex, targetName);
         fm.OnDetected(targetName);
 
 
@@ -90,10 +92,10 @@ public class GameManager : MonoBehaviour
         debugText.color = Color.yellow;
     }
 
-    // °× Á¾·á
+    // ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     public void Quit()
     {
-        Debug.Log("Á¾·á ´­¸²");
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
         Application.Quit();
     }
 
