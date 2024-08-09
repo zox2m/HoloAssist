@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.Video;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,11 +25,12 @@ public class GameManager : MonoBehaviour
     #endregion
 
     public TextMeshProUGUI debugText;
-    
-    public GameObject clepsydraPrefab;
+    public GameObject[] trackTargets; // 타겟들 옵젝 모아두는 배열. 일단은 인스펙터에서 연결 . 0퓨쳐셀프 1씨름 2 
+
+
     private GameObject trackedTarget;
     public TextMeshProUGUI infoText;
-    public GameObject[] trackTargets; // 타겟들 옵젝 모아두는 배열. 일단은 인스펙터에서 연결 . 0퓨쳐셀프 1씨름 2 
+    public VideoPlayer infoVideo;
 
     public FileManger fm; // 인스펙터에서 할당 
 
@@ -42,19 +44,22 @@ public class GameManager : MonoBehaviour
         trackedTarget = trackTargets[targetIndex];
 
         infoText = trackedTarget.transform.GetChild(1).GetComponent<TextMeshProUGUI>(); // 해당 타겟의 text 
+        infoVideo = trackedTarget.transform.GetChild(2).GetComponent<VideoPlayer>(); // 해당 타겟의 video
 
-
-        debugText.text = targetIndex + ": Detected";
-        debugText.color = Color.green;
+        //debugText.text = targetIndex + ": Detected";
+        //debugText.color = Color.green;
 
         // target 위치에 모델 생성 
         //Instantiate(clepsydraPrefab, targetTransform, Quaternion.identity); // 약간 오프셋을 줌
 
         // 안내 UI 표시
-        //infoText.enabled = true;
         infoText.transform.position = trackedTarget.transform.GetChild(0).position; // 타겟의 위치로 이동 
-        infoText.transform.rotation = trackedTarget.transform.GetChild(0).rotation;
+        infoText.transform.rotation = trackedTarget.transform.GetChild(0).rotation; // 타겟의 방향으로 회전 
 
+        // 안내 video 표시
+        infoVideo.Prepare();
+        infoVideo.Play();
+        
         // 안내 음성 재생 
 
         // 해당 위치에 귀칼 재생.. 일단 데모해야하니까 존나 하드코딩할게요 ㅈㅅㅈㅅ
@@ -79,15 +84,17 @@ public class GameManager : MonoBehaviour
                 break;
         }
 
-        fm.OnDetected(targetName);
+        // file manager 부분, 데모때는 끄고 그냥 하드코딩함 
+        //fm.OnDetected(targetName, trackedTarget);
 
 
     }
 
     public void Callback_StopBookTarget()
     {
-        debugText.text = "Searching...";
-        debugText.color = Color.yellow;
+        //debugText.text = "Searching...";
+        //debugText.color = Color.yellow;
+
     }
 
     // 겜 종료

@@ -11,7 +11,6 @@ public class FileManger : MonoBehaviour
     public GameObject videoPanel;
     public GameObject textPanel;
 
-
     private Video_Manager vm;
     private Text_Manager tm;
     string object_string = "test";
@@ -21,26 +20,20 @@ public class FileManger : MonoBehaviour
     {
         tm = new Text_Manager();
         vm = new Video_Manager();
-
-        /*
-        Debug.Log(tm.get_Text(object_string));
-        videoPanel.GetComponent<VideoPlayer>().clip = vm.get_Video(object_string);
-        videoPanel.GetComponent<VideoPlayer>().Prepare();
-        videoPanel.GetComponent<VideoPlayer>().Play();
-        */
-
     }
     
-    public void OnDetected(string object_string)
+    public void OnDetected(string object_string, GameObject targetObject)
     {
+        textPanel = targetObject.transform.GetChild(1).gameObject;
+        videoPanel = targetObject.transform.GetChild(2).gameObject;
+
         // tm : 글자 가져와서 표시 
-        //Debug.Log(tm.get_Text(object_string));
         textPanel.GetComponent<TextMeshProUGUI>().text = tm.get_Text(object_string);
 
         // vm : 영상 가져와서 표시 
         videoPanel.GetComponent<VideoPlayer>().clip = vm.get_Video(object_string);
         videoPanel.GetComponent<VideoPlayer>().Prepare();
         videoPanel.GetComponent<VideoPlayer>().Play();
-    }
 
+    }
 }
